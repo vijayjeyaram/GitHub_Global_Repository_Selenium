@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Authentication" parallel="false">
+  <test name="Mobile Login Flow">
+    <classes>
+      <class name="authentication.Mobile_LoginFlow"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Retrieve User Name">
+    <classes>
+      <class name="authentication.Mobile_Retrieve_UserName"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Reset Password">
+    <classes>
+      <class name="authentication.Mobile_Reset_Password"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

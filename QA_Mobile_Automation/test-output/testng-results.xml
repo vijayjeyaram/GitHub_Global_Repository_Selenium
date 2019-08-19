@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30102" started-at="2019-08-19T07:29:17Z" finished-at="2019-08-19T07:29:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30102" started-at="2019-08-19T07:29:17Z" finished-at="2019-08-19T07:29:47Z">
+      <class name="authentication.Mobile_Retrieve_UserName">
+        <test-method status="PASS" signature="GetTestData()[pri:0, instance:authentication.Mobile_Retrieve_UserName@35851384]" name="GetTestData" is-config="true" duration-ms="10" started-at="2019-08-19T12:59:17Z" finished-at="2019-08-19T12:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTestData -->
+        <test-method status="PASS" signature="Retrieve_UserName()[pri:0, instance:authentication.Mobile_Retrieve_UserName@35851384]" name="Retrieve_UserName" duration-ms="29977" started-at="2019-08-19T12:59:17Z" finished-at="2019-08-19T12:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Retrieve_UserName -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:authentication.Mobile_Retrieve_UserName@35851384]" name="EndTest" is-config="true" duration-ms="101" started-at="2019-08-19T12:59:47Z" finished-at="2019-08-19T12:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- authentication.Mobile_Retrieve_UserName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
